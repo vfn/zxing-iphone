@@ -12,3 +12,23 @@ build/*
 # osx noise
 .DS_Store
 profile
+
+# Add only the iPhone related stuff
+actionscript/*
+android-integration/*
+android/*
+androidtest/*
+bug/*
+build.properties
+build.xml
+#cpp/*
+core/*
+csharp/*
+#iphone/*
+javame/*
+javase/*
+jruby/*
+rim/*
+symbian/*
+zxing.appspot.com/*
+zxingorg/*
