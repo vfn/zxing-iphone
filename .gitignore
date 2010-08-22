@@ -25,6 +25,7 @@ build.xml
 core/*
 csharp/*
 #iphone/*
+iphone/ScanTest/build/*
 iphone/ZXingWidget/build/*
 javame/*
 javase/*
