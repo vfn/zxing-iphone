@@ -39,6 +39,13 @@
 			remoteGlobalIDString = D2AAC07D0554694100DB518D;
 			remoteInfo = ZXingWidget;
 		};
+		E9F55A451227AB5900387A85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F027F7611A7BAD4006B06DE /* ZXingWidget.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E9E478C51220C4C300144387;
+			remoteInfo = ZXingTouch;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -117,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				1F027F7E11A7BAD4006B06DE /* libZXingWidget.a */,
+				E9F55A461227AB5900387A85 /* libZXingTouch.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -226,6 +234,13 @@
 			fileType = archive.ar;
 			path = libZXingWidget.a;
 			remoteRef = 1F027F7D11A7BAD4006B06DE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E9F55A461227AB5900387A85 /* libZXingTouch.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libZXingTouch.a;
+			remoteRef = E9F55A451227AB5900387A85 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
