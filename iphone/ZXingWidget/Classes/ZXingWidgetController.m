@@ -344,15 +344,15 @@
            object:self.captureSession];
 */
 
-  [self.captureSession startRunning];
-
   if (!self.prevLayer) {
     self.prevLayer = [AVCaptureVideoPreviewLayer layerWithSession:self.captureSession];
   }
   // NSLog(@"prev %p %@", self.prevLayer, self.prevLayer);
   self.prevLayer.frame = self.view.bounds;
   self.prevLayer.videoGravity = AVLayerVideoGravityResizeAspectFill;
-  [self.view.layer addSublayer: self.prevLayer];
+	[self.view.layer addSublayer: self.prevLayer];
+	
+	[self.captureSession startRunning];
 #endif
 }
 
