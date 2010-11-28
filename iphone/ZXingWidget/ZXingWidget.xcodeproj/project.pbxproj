@@ -1586,7 +1586,6 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = ../../cpp/core/src;
 				INSTALL_PATH = /usr/local/lib;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				LD_GENERATE_MAP_FILE = YES;
 				LD_OPENMP_FLAGS = "-fopenmp";
 				MACH_O_TYPE = staticlib;
@@ -1612,7 +1611,6 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = ../../cpp/core/src;
 				INSTALL_PATH = /usr/local/lib;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PRODUCT_NAME = ZXingTouch;
 			};
 			name = Release;
